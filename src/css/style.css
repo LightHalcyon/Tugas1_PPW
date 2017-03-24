@@ -42,3 +42,76 @@ footer {
         height: auto;
     }
 }
+
+.mySlides {
+    display: none
+}
+
+.button:hover {
+    color: #000!important;
+    background-color: #ccc!important
+}
+
+.button-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(-0%, -50%);
+    float: left!important;
+    border-style: solid;
+    border-color: #ccc;
+    cursor: pointer
+}
+
+.button-left:hover {
+    color: #b4aa50!important
+}
+
+.button-right:hover {
+    color: #b4aa50!important
+}
+
+.button-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    float: right!important;
+    border-style: solid;
+    border-color: #ccc;
+    cursor: pointer
+}
+
+.slide-container {
+    max-width: 980px;
+    margin: auto;
+    position: relative
+}
+
+.slide-text-container {
+    text-align: center!important;
+    padding: 0.01em 16px;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    font-size: 18px!important;
+    color: #fff!important;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%)
+}
+
+.slide-pointer {
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #ccc!important;
+    background-color: transparent!important
+}
+
+.slide-pointer:hover {
+    color: #000!important;
+    background-color: #fff!important
+}

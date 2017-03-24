@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="src/css/bootstrap.min.css">
     <script type="text/javascript" src="src/js/jquery-3.1.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    <link rel="stylesheet" type="text/css" href="src/css/w3.css">
 </head>
 
 <body>
@@ -22,11 +23,11 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="#">Home</a></li>
                     <li><a href="profile.html">Profile</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="event.html">Event</a></li>
-                    <li class="active"><a href="#">Comments</a></li>
+                    <li><a href="comments.html">Comments</a></li>
                 </ul>
 
             </div>
@@ -48,14 +49,26 @@
                 <hr>
                 <h3>Test</h3>
                 <p>Lorem ipsum...</p>
+                <div class="w3-content w3-display-container">
+                    <img class="mySlides" src="src/img/slide1.jpg" style="width:100%" alt="None">
+                    <img class="mySlides" src="src/img/slide2.jpg" style="width:100%" alt="None">
+                    <img class="mySlides" src="src/img/slide3.png" style="width:100%" alt="None">
+                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                        <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                        <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                    </div>
+                </div>
+                <hr>
             </div>
             <div class="col-sm-2 sidenav">
                 <div class="well">
-                    <p>ADS</p>
+                    <h1>About</h1>
+                    <p>Deskripsi lab here</p>
                 </div>
-                <div class="well">
-                    <p>ADS</p>
-                </div>
+
             </div>
         </div>
     </div>
@@ -63,8 +76,7 @@
     <footer class="container-fluid text-center">
         <p>Footer Text</p>
     </footer>
+    <script type="text/javascript" src="src/js/slide.js"></script>
 </body>
-
-</html>
 
 </html>
