@@ -2,18 +2,18 @@
     "project": [{
         "judul": "a",
         "deskripsi": "a",
-        "bulan": "a",
-        "tahun": "a",
+        "bulan": "January",
+        "tahun": "1970",
         "staff": [{
             "id": "1"
         }, {
             "id": "2"
         }]
     }, {
-        "judul": "",
-        "deskripsi": "",
-        "bulan": "",
-        "tahun": "",
+        "judul": "Lorem",
+        "deskripsi": "Ipsum",
+        "bulan": "March",
+        "tahun": "1998",
         "staff": [{
             "id": "3"
         }, {
