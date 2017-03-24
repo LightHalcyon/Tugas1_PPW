@@ -1,8 +1,13 @@
 <?xml version="1.0"?>
-<profillengkap></profillengkap>
+<idxml id='profilexml'>
+<profillengkap>profil</profillengkap>
 <anggota>
-    <nama></nama>
-    <email></email>
+    <nama>Adityawarman Fanaro</nama>
+    <email>adityawarman.fanaro@gmail.com</email>
+</anggota>
+<anggota>
+    <nama>Nafi Cahya Fauzan</nama>
+    <email>fiscario@gmail.com</email>
 </anggota>
 <anggota>
     <nama></nama>
@@ -16,7 +21,4 @@
     <nama></nama>
     <email></email>
 </anggota>
-<anggota>
-    <nama></nama>
-    <email></email>
-</anggota>
+</idxml>
