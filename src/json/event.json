@@ -1,0 +1,33 @@
+{
+    "event": [{
+        "judul": "3D Modelling",
+        "tempat": "MIC UI",
+        "tanggal": "24/3/2017",
+        "pembicara": "Narendra",
+        "gambar": "src/img/slide1.jpg"
+    }, {
+        "judul": "Animating",
+        "tempat": "MIC UI",
+        "tanggal": "25/3/2017",
+        "pembicara": "Wololo",
+        "gambar": "src/img/slide2.jpg"
+    }, {
+        "judul": "3D Animating",
+        "tempat": "MIC UI",
+        "tanggal": "26/3/2017",
+        "pembicara": "Warman",
+        "gambar": "src/img/slide3.png"
+    }, {
+        "judul": "",
+        "tempat": "MIC UI",
+        "tanggal": "TBA",
+        "pembicara": "TBA",
+        "gambar": ""
+    }, {
+        "judul": "",
+        "tempat": "TBA",
+        "tanggal": "TBA",
+        "pembicara": "TBA",
+        "gambar": ""
+    }]
+}

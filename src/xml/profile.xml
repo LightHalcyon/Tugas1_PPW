@@ -4,21 +4,26 @@
 <anggota>
     <nama>Adityawarman Fanaro</nama>
     <email>adityawarman.fanaro@gmail.com</email>
+    <id>1</id>
 </anggota>
 <anggota>
     <nama>Nafi Cahya Fauzan</nama>
     <email>fiscario@gmail.com</email>
+    <id>2</id>
 </anggota>
 <anggota>
     <nama></nama>
     <email></email>
+    <id>3</id>
 </anggota>
 <anggota>
     <nama></nama>
     <email></email>
+    <id>4</id>
 </anggota>
 <anggota>
     <nama></nama>
     <email></email>
+    <id>5</id>
 </anggota>
 </idxml>
