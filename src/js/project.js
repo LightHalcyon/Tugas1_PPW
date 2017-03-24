@@ -9,9 +9,9 @@ $.ajax({
 });
 $.get("src/json/project.json", function(project) {
     tmp = project;
-    for (i = 0; i < tmp.project.length; i++) {
+    for (var i = 0; i < tmp.project.length; i++) {
         $('#projects').append("Judul: " + tmp.project[i].judul + "<br>Deskripsi: " + tmp.project[i].deskripsi + "<br>Mulai Sejak: " + tmp.project[i].bulan + "/" + tmp.project[i].tahun + "<br>Staff:");
-        for (j = 0; j < tmp.project[i].staff.length; j++) {
+        for (var j = 0; j < tmp.project[i].staff.length; j++) {
 
             var id = tmp.project[i].staff[j].id;
             $(tmp2).find('anggota').each(function(k) {
